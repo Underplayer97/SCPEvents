@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory
+credits="Forge and tutorial videos to make this mod possible" #optional
+authors="Under" #optional
+
+[[mods]] #mandatory
+modId="scpe" #mandatory
+version="0.1.0" #mandatory
+displayName="SCPEvents" #mandatory
+description='''
+This mod makes events that lead to a XK class in the SCP universe
+'''
+
+[[dependencies.tutorialmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.tutorialmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.12.2]"
+    ordering="NONE"
+    side="BOTH"
